@@ -28,6 +28,50 @@ const nestedMuppet = {
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
+const moo = farmAnimals.substring(0,3);
+const neigh = farmAnimals.substring(4, 9);
+const baa = farmAnimals.substring(10, 15);
+const oink = farmAnimals.substring(16, 19);
+const cluck = farmAnimals.substring(20);
+
+const bessie = farmAnimals.substring(0,3);
+const dolly = farmAnimals.substring(10, 15);
+const babe = farmAnimals.substring(16, 19);
+const little = farmAnimals.substring(20);
+
+const blackAndWhite = farmAnimals.substring(0,3);
+const black = farmAnimals.substring(10, 15);
+const pink = farmAnimals.substring(16, 19);
+
+const red = colors[0];
+const orange = colors[1];
+const yellow = colors[2];
+const green = colors[3];
+const blue = colors[4];
+const indigo = colors[5];
+const violet = colors[6];
+
+const r = colors[0];
+const o = colors[1];
+const y = colors[2];
+const g = colors[3];
+const b = colors[4];
+const i = colors[5];
+const v = colors[6];
+
+const indg = colors[5];
+
+const muppetName = muppet.muppetName;
+const color = muppet.color;
+const song = muppet.song;
+const job = muppet.job;
+const partner = muppet.partner;
+
+const song2 = nestedMuppet.album.theMuppetMovie.song2;
+const song4 = nestedMuppet.album.theMuppetMovie.song4;
+const nestedJob = nestedMuppet.nestedJob;
+const nestedPartner = nestedMuppet.nestedPartner;
+
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 
